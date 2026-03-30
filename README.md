@@ -29,11 +29,11 @@ Final Year
 ### 💼 **WORK EXPERIENCE**
 #### **ACADEMIC & PERSONAL PROJECTS (2024-PRESENT)**
 **MediQueue Clinic System (Ongoing)**  
-*Developing a clinic management system designed to streamline patient appointments, queue management, and staff workflow.  
-*Enables patients to book and manage appointments online.  
-*Provides real-time queue tracking for doctors and receptionists.  
-*Includes secure patient record management and reporting features.  
-*Applying Web Technologies, Object-Oriented Programming, and SQL Database Integration.
+* Developing a clinic management system designed to streamline patient appointments, queue management, and staff workflow.  
+* Enables patients to book and manage appointments online.  
+* Provides real-time queue tracking for doctors and receptionists.  
+* Includes secure patient record management and reporting features.  
+* Applying Web Technologies, Object-Oriented Programming, and SQL Database Integration.
 
 **Password Vault Application (Ongoing)**
 * Developing a secure password management tool to store and retrieve passwords safely.
@@ -51,15 +51,15 @@ Final Year
 * Integrated a Derby database using JDBC and built client-server communication using sockets and serialization.
 
 **ISbani Youth Development**  
-*Develped a comprehensive non-government organisation website designed for youth outreach and community engagement.  
-*Focused on accessibility and usability.  
-*Tech used: HTML, CSS, JavaScript.
+* Develped a comprehensive non-government organisation website designed for youth outreach and community engagement.  
+* Focused on accessibility and usability.  
+* Tech used: HTML, CSS, JavaScript.
 
 **Startup Simulator**  
-*Developed an engaging business simulator game that challenges players to build and manage a thriving startup.  
-*Features interactive gameplay and strategic decision-making.  
-*Built dynamic interfaces and game logic for realistic simulation.  
-*Tech used: HTML, CSS, JavaScript.  
+* Developed an engaging business simulator game that challenges players to build and manage a thriving startup.  
+* Features interactive gameplay and strategic decision-making.  
+* Built dynamic interfaces and game logic for realistic simulation.  
+* Tech used: HTML, CSS, JavaScript.  
 
 ---
 
