@@ -56,7 +56,7 @@ Final Year
 *Tech used: HTML, CSS, JavaScript.
 
 **Startup Simulator**  
-*Developed an engaging business simulator game that challenges players to build and manage a thriving Silicon Valley startup.  
+*Developed an engaging business simulator game that challenges players to build and manage a thriving startup.  
 *Features interactive gameplay and strategic decision-making.  
 *Built dynamic interfaces and game logic for realistic simulation.  
 *Tech used: HTML, CSS, JavaScript.  
