@@ -79,3 +79,8 @@ Final Year
 **Phone number:** 0606181985  
 **Email:** nhlanhlanqoko1@gmail.com
 
+# Mock Video Interview
+<video width="600" controls>
+    <source src="video/Mock-interview-video.mp4" type="video/mp4">
+</video>
+
