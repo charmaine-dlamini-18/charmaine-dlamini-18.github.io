@@ -51,7 +51,7 @@ Final Year
 * Integrated a Derby database using JDBC and built client-server communication using sockets and serialization.
 
 **ISbani Youth Development**  
-* Develped a comprehensive non-government organisation website designed for youth outreach and community engagement.  
+* Developed a comprehensive non-government organisation website designed for youth outreach and community engagement.  
 * Focused on accessibility and usability.  
 * Tech used: HTML, CSS, JavaScript.
 
