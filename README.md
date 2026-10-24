@@ -1231,3 +1231,45 @@ I worked with my team members to break down the project into manageable tasks an
 **Result:**
 
 Creating user stories and tasks helped our team understand the project requirements and work towards our goals in a more organised way. I learned the importance of breaking a large project into smaller tasks, setting priorities, managing time, and communicating with team members. I also gained a better understanding of how Agile practices support software development, from initial planning to testing and deployment. This experience helped me improve my teamwork, organisation, and problem-solving skills.
+
+---
+
+## Product Backlog
+
+---
+
+---
+## Reflection on Product Backlog
+
+### Situation
+During the development of LaundryPickupPro, the product backlog was used to organise the features and requirements needed for the application. It helped the team keep track of the work required to build a laundry pickup and delivery platform.
+
+### Task
+My responsibility was to contribute to identifying and organising the features needed by users, ensuring that the application addressed their needs and that important requirements were considered during development.
+
+### Action
+I contributed to identifying the main features of the application and breaking the requirements into manageable items. These included user registration and login, customer and driver functionality, booking management, and other features needed for the pickup and delivery process. The product backlog helped the team prioritise work and understand which features needed attention during each sprint.
+
+### Result
+Working with the product backlog helped me understand the importance of planning and prioritising features before development. I learned that a well-organised backlog helps a team stay focused, manage requirements, and work towards delivering an application that meets users' needs.
+
+---
+
+## Sprint Backlog
+
+---
+
+---
+## Reflection on Sprint Backlog
+
+### Situation
+During the development of LaundryPickupPro, the sprint backlog was used to organise the tasks selected for each sprint. It helped the team focus on the work that needed to be completed within a specific period.
+
+### Task
+My responsibility was to work on assigned tasks, manage my progress, and contribute to completing the planned work within each sprint.
+
+### Action
+I used the sprint tasks to guide my work on the application, including screen development, testing, debugging, documentation, and other development activities. Breaking the work into smaller tasks made it easier to understand what needed to be done and track progress. I also learned the importance of communicating with team members and managing my time while balancing project work with other academic responsibilities.
+
+### Result
+The sprint backlog helped me understand how large project requirements can be divided into smaller, achievable tasks. I improved my understanding of sprint planning, task tracking, prioritisation, and teamwork. I also learned that regular progress reviews help identify unfinished work and areas that need improvement before moving forward.
