@@ -357,7 +357,7 @@ Our team will review and update the charter during retrospectives to ensure it r
 
 By working on this team, we commit to the principles and agreements outlined above.
 
-![LaundryPickupPro Agile Team Charter - Team Commitment Signatures](images/team-commitment-signatures.png)
+![LaundryPickupPro Agile Team Charter - Team Commitment Signatures](images/Team-Signatures.png)
 
 ---
 
