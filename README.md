@@ -353,19 +353,19 @@ Our team will review and update the charter during retrospectives to ensure it r
 
 ## Reflection on Agile Team Charter
 
-### Situation
+**Situation:**
 
 As part of the LaundryPickupPro project, our team needed a clear agreement on how we would work together, communicate, share responsibilities, and complete our project tasks.
 
-### Task
+**Task:**
 
 My responsibility was to contribute to the development process while helping ensure that the team's working agreements, risks, and constraints were clearly documented.
 
-### Action
+**Action:**
 
 I contributed to defining the team's working agreements and identifying risks and constraints that could affect our progress. We also documented our Agile practices, communication channels, milestones, and expectations for completing and reviewing tasks.
 
-### Result
+**Result:**
 
 The Agile Team Charter provided a shared understanding of team responsibilities, communication expectations, project goals, and ways of working. It helped us organise our work, identify possible challenges, and maintain a common direction throughout the project.
 
@@ -1231,18 +1231,23 @@ Creating user stories and tasks helped our team understand the project requireme
 [View Product Backlog and Sprint Backlog on Trello](https://trello.com/b/D6tnqbrx)
 
 ---
+
 ## Reflection on Product Backlog
 
-### Situation
+**Situation:**
+
 During the development of LaundryPickupPro, the product backlog was used to organise the features and requirements needed for the application. It helped the team keep track of the work required to build a laundry pickup and delivery platform.
 
-### Task
+**Task:**
+
 My responsibility was to contribute to identifying and organising the features needed by users, ensuring that the application addressed their needs and that important requirements were considered during development.
 
-### Action
+**Action:**
+
 I contributed to identifying the main features of the application and breaking the requirements into manageable items. These included user registration and login, customer and driver functionality, booking management, and other features needed for the pickup and delivery process. The product backlog helped the team prioritise work and understand which features needed attention during each sprint.
 
-### Result
+**Result:**
+
 Working with the product backlog helped me understand the importance of planning and prioritising features before development. I learned that a well-organised backlog helps a team stay focused, manage requirements, and work towards delivering an application that meets users' needs.
 
 ---
@@ -1254,14 +1259,20 @@ Working with the product backlog helped me understand the importance of planning
 ---
 ## Reflection on Sprint Backlog
 
-### Situation
+**Situation:**
+
 During the development of LaundryPickupPro, the sprint backlog was used to organise the tasks selected for each sprint. It helped the team focus on the work that needed to be completed within a specific period.
 
-### Task
+**Task:**
+
 My responsibility was to work on assigned tasks, manage my progress, and contribute to completing the planned work within each sprint.
 
-### Action
+**Action:**
+
 I used the sprint tasks to guide my work on the application, including screen development, testing, debugging, documentation, and other development activities. Breaking the work into smaller tasks made it easier to understand what needed to be done and track progress. I also learned the importance of communicating with team members and managing my time while balancing project work with other academic responsibilities.
 
-### Result
+**Result:**
+
 The sprint backlog helped me understand how large project requirements can be divided into smaller, achievable tasks. I improved my understanding of sprint planning, task tracking, prioritisation, and teamwork. I also learned that regular progress reviews help identify unfinished work and areas that need improvement before moving forward.
+
+---
