@@ -351,16 +351,6 @@ Our team will review and update the charter during retrospectives to ensure it r
 
 ---
 
-## 12. Team Commitment
-
-### Our agreement to this charter
-
-By working on this team, we commit to the principles and agreements outlined above.
-
-![LaundryPickupPro Agile Team Charter - Team Commitment Signatures](images/Team-Signatures.png)
-
----
-
 ## Reflection on Agile Team Charter
 
 ### Situation
@@ -1237,6 +1227,8 @@ Creating user stories and tasks helped our team understand the project requireme
 ## Product Backlog
 
 ---
+
+[View Product Backlog and Sprint Backlog on Trello](https://trello.com/b/D6tnqbrx)
 
 ---
 ## Reflection on Product Backlog
