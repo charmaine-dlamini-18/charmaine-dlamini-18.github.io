@@ -357,7 +357,7 @@ Our team will review and update the charter during retrospectives to ensure it r
 
 By working on this team, we commit to the principles and agreements outlined above.
 
-![LaundryPickupPro Agile Team Charter - Team Commitment Signatures](images/team-commitment-signatures.png)
+![LaundryPickupPro Agile Team Charter - Team Commitment Signatures](images/Team-Signatures.png)
 
 ---
 
@@ -1213,3 +1213,63 @@ As a resident, I want to provide feedback on the application so that future impr
 - Update documentation based on the improvements – Sabelo Ceza
 
 ---
+
+### **Reflection on User Stories and Tasks**
+
+**Situation:**
+
+During the development of LaundryPickupPro, our team created user stories and tasks across ten sprints. This helped us organise the project into smaller activities, from defining the business problem and conducting user research to designing the application, planning the database, testing, and deployment.
+
+**Task:**
+
+My responsibility was to contribute to the user stories and help organise and complete the tasks assigned to me. These activities included defining user requirements, analysing survey responses, preparing project documentation, prioritising tasks, designing application screens, testing user authentication, debugging database errors, and identifying areas for improvement.
+
+**Action:**
+
+I worked with my team members to break down the project into manageable tasks and assign responsibilities. We used the sprint structure and Trello board to track progress and understand what needed to be completed. I contributed to planning, requirements, screen design, testing, and documentation. I also communicated with team members and worked towards completing my assigned tasks within the deadlines.
+
+**Result:**
+
+Creating user stories and tasks helped our team understand the project requirements and work towards our goals in a more organised way. I learned the importance of breaking a large project into smaller tasks, setting priorities, managing time, and communicating with team members. I also gained a better understanding of how Agile practices support software development, from initial planning to testing and deployment. This experience helped me improve my teamwork, organisation, and problem-solving skills.
+
+---
+
+## Product Backlog
+
+---
+
+---
+## Reflection on Product Backlog
+
+### Situation
+During the development of LaundryPickupPro, the product backlog was used to organise the features and requirements needed for the application. It helped the team keep track of the work required to build a laundry pickup and delivery platform.
+
+### Task
+My responsibility was to contribute to identifying and organising the features needed by users, ensuring that the application addressed their needs and that important requirements were considered during development.
+
+### Action
+I contributed to identifying the main features of the application and breaking the requirements into manageable items. These included user registration and login, customer and driver functionality, booking management, and other features needed for the pickup and delivery process. The product backlog helped the team prioritise work and understand which features needed attention during each sprint.
+
+### Result
+Working with the product backlog helped me understand the importance of planning and prioritising features before development. I learned that a well-organised backlog helps a team stay focused, manage requirements, and work towards delivering an application that meets users' needs.
+
+---
+
+## Sprint Backlog
+
+---
+
+---
+## Reflection on Sprint Backlog
+
+### Situation
+During the development of LaundryPickupPro, the sprint backlog was used to organise the tasks selected for each sprint. It helped the team focus on the work that needed to be completed within a specific period.
+
+### Task
+My responsibility was to work on assigned tasks, manage my progress, and contribute to completing the planned work within each sprint.
+
+### Action
+I used the sprint tasks to guide my work on the application, including screen development, testing, debugging, documentation, and other development activities. Breaking the work into smaller tasks made it easier to understand what needed to be done and track progress. I also learned the importance of communicating with team members and managing my time while balancing project work with other academic responsibilities.
+
+### Result
+The sprint backlog helped me understand how large project requirements can be divided into smaller, achievable tasks. I improved my understanding of sprint planning, task tracking, prioritisation, and teamwork. I also learned that regular progress reviews help identify unfinished work and areas that need improvement before moving forward.
