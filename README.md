@@ -1276,3 +1276,36 @@ I used the sprint tasks to guide my work on the application, including screen de
 The sprint backlog helped me understand how large project requirements can be divided into smaller, achievable tasks. I improved my understanding of sprint planning, task tracking, prioritisation, and teamwork. I also learned that regular progress reviews help identify unfinished work and areas that need improvement before moving forward.
 
 ---
+
+## Agile Logbooks
+
+The Agile logbooks below document my progress, activities, and contributions to the development of LaundryPickupPro throughout the project.
+
+### Logbook Documents
+
+| Date | Logbook |
+|---|---|
+| 14 July – 17 July | [View Agile Logbook (PDF)](Logbooks/14July-17July-Agile-Logbook.pdf) |
+| 21 July – 24 July | [View Agile Logbook (PDF)](Logbooks/21July-24July-Agile-Logbook.pdf) |
+| 28 July – 31 July | [View Agile Logbook (PDF)](Logbooks/28July-31July-Logbook.pdf) |
+| 04 August – 07 August | [View Agile Logbook (PDF)](Logbooks/04August-07August-Agile-Logbook.pdf) |
+| 11 August – 14 August | [View Agile Logbook (PDF)](Logbooks/11August-14August-Agile-Logbook.pdf) |
+| 15 September – 18 September | [View Agile Logbook (PDF)](Logbooks/15Sept-18Sept-Agile-Logbook.pdf) |
+| 22 September – 25 September | [View Agile Logbook (PDF)](Logbooks/22Sept-25Sept-Agile-Logbook.pdf) |
+| 28 September – 30 September | [View Agile Logbook (PDF)](Logbooks/28Sept-30Sept-Agile-Logbook.pdf) |
+
+---
+
+### Reflection on Agile Logbooks
+
+**Situation:**  
+During the development of LaundryPickupPro, I maintained Agile logbooks to record my activities, progress, and contributions throughout the project. The logbooks covered different stages of development, including screen design, frontend development, backend work, and deployment.
+
+**Task:**  
+My responsibility was to document the work completed during each period, keep track of my progress, and identify challenges that affected my ability to complete tasks.
+
+**Action:**  
+I recorded my development activities, documented completed tasks, and reflected on challenges such as managing my time while balancing project work with other academic responsibilities. I also used the logbooks to review my progress and identify tasks that needed further attention.
+
+**Result:**  
+Maintaining the logbooks helped me become more organised and aware of my progress. I improved my understanding of Agile practices, documentation, accountability, and continuous improvement. I also learned the importance of keeping accurate records to communicate progress and reflect on my contributions to a software development project.
