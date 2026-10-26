@@ -133,6 +133,8 @@ This experience helped me identify areas for improvement, particularly in confid
 
 ## Agile Team Charter – LaundryPickupPro
 
+[View Agile Team Charter (PDF)](Agile%20Team%20Charter.pdf)
+
 ## 1. Team Purpose & Vision
 
 ### Why do we exist as a team?
