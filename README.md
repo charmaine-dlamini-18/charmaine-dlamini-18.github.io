@@ -1226,9 +1226,13 @@ Creating user stories and tasks helped our team understand the project requireme
 
 ## Product Backlog
 
----
-
 [View Product Backlog and Sprint Backlog on Trello](https://trello.com/b/D6tnqbrx)
+
+![Product Backlog 1](images/Product-Backlog1.jpg)
+
+![Product Backlog 2](images/Product-Backlog2.jpg)
+
+![Product Backlog 3](images/Product-Backlog3.jpg)
 
 ---
 
@@ -1254,7 +1258,12 @@ Working with the product backlog helped me understand the importance of planning
 
 ## Sprint Backlog
 
----
+![Sprint Backlog 1](images/Sprint-Backlog1.png)
+
+![Sprint Backlog 2](images/Sprint-Backlog2.png)
+
+![Sprint Backlog 3](images/Sprint-Backlog3.png)
+
 
 ---
 ## Reflection on Sprint Backlog
