@@ -1,88 +1,274 @@
-# CHARMAINE DLAMINI
+<style>
+:root {
+  --navy:#0B2545; --navy-2:#12385A; --teal:#0E9F8E; --teal-dark:#0B7C70;
+  --mint:#EAF8F6; --purple:#6C63FF; --amber:#E88B2A; --ink:#1F3A4D;
+  --muted:#5B7285; --line:#DCE7EE; --card:#FFFFFF; --bg:#F6FAFC;
+}
+html { scroll-behavior:smooth; }
+body { color:var(--ink); background:linear-gradient(180deg,#F6FAFC 0%,#FFFFFF 340px); padding:16px; }
+.markdown-body { max-width:1080px; margin:auto; }
+h1, h2, h3, h4 { color:var(--navy); line-height:1.25; }
+h1 { letter-spacing:.3px; }
+h2 { border-bottom:2px solid var(--line); padding-bottom:.5rem; margin-top:2.6rem; }
+h3 { margin-top:1.8rem; }
+h4 { margin-top:1.4rem; }
+p, li { line-height:1.7; }
+a { color:var(--teal-dark); font-weight:600; text-decoration:none; }
+a:hover { color:var(--purple); text-decoration:underline; }
+hr { height:2px; border:0; background:linear-gradient(90deg,var(--teal),var(--purple),transparent); margin:2rem 0; opacity:.65; }
+table { display:table; width:100%; border-collapse:collapse; margin:1.1rem 0 1.6rem; border-radius:10px; overflow:hidden; }
+th { background:var(--navy); color:#fff; font-weight:600; }
+th, td { padding:11px 13px; border:1px solid var(--line); text-align:left; vertical-align:top; }
+tr:nth-child(even) td { background:#F4F9FB; }
+tr:hover td { background:#EDF7F6; }
+img { max-width:100%; height:auto; border-radius:10px; }
+blockquote { border-left:5px solid var(--teal); background:var(--mint); padding:12px 18px; border-radius:0 10px 10px 0; margin:1.2rem 0; }
+[id] { scroll-margin-top:24px; }
+
+.portfolio-hero { position:relative; overflow:hidden; background:radial-gradient(120% 120% at 10% 0%, rgba(108,99,255,.55) 0%, transparent 45%), radial-gradient(120% 120% at 90% 10%, rgba(14,159,142,.55) 0%, transparent 45%), linear-gradient(135deg,#0B2545 0%,#124E66 55%,#2E3A8C 100%); color:#fff; padding:46px 24px 40px; border-radius:24px; text-align:center; box-shadow:0 18px 40px rgba(11,37,69,.22); }
+.portfolio-hero::before { content:""; position:absolute; inset:-40% -10% auto -10%; height:70%; background:radial-gradient(circle,rgba(255,255,255,.18),transparent 60%); pointer-events:none; }
+.portfolio-hero > * { position:relative; z-index:1; }
+.portfolio-hero h1 { color:#fff; border:0; margin:18px 0 6px; font-size:2.2rem; letter-spacing:2px; }
+.portfolio-hero h3 { color:#CFEFEA; margin:0 0 14px; font-weight:500; }
+.portfolio-hero p { color:#EAF4FF; margin:.4rem auto; max-width:760px; }
+.hero-tags { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin:14px 0 6px; }
+.hero-tags span { background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.3); color:#fff; padding:6px 12px; border-radius:999px; font-size:.85rem; }
+.welcome-top { text-align:center; margin:6px 0 18px; }
+.welcome-top h2 { border:0; margin:0; padding:0; font-size:1.7rem; letter-spacing:.5px; }
+
+.portfolio-nav { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:14px; margin:22px 0; }
+.portfolio-nav a { display:block; background:#fff; border:1px solid var(--line); border-left:5px solid var(--teal); padding:15px 17px; border-radius:14px; text-decoration:none; color:var(--navy); box-shadow:0 3px 10px rgba(16,42,67,.05); transition:transform .16s ease, box-shadow .16s ease, border-color .16s ease; }
+.portfolio-nav a:hover { transform:translateY(-3px); box-shadow:0 12px 24px rgba(16,42,67,.14); color:var(--purple); border-left-color:var(--purple); text-decoration:none; }
+.portfolio-nav small { color:var(--muted); display:block; margin-top:3px; font-weight:400; }
+
+.section-banner { background:linear-gradient(135deg,#0B2545,#124E66); color:#fff; border-radius:16px; padding:18px 22px; margin:28px 0 18px; box-shadow:0 10px 24px rgba(11,37,69,.14); }
+.section-banner h2 { color:#fff !important; border:0; margin:0; padding:0; font-size:1.5rem; }
+.section-banner h1 { color:#fff !important; border:0; margin:0; padding:0; font-size:1.6rem; }
+.section-banner.teal { background:linear-gradient(135deg,#0B7C70,#0E9F8E); }
+.section-banner.purple { background:linear-gradient(135deg,#4538A8,#6C63FF); }
+.section-banner.stories { background:linear-gradient(135deg,#5B2A86,#9B59B6); }
+.section-banner.amber { background:linear-gradient(135deg,#A65E12,#E88B2A); }
+.section-banner.blue { background:linear-gradient(135deg,#174A7E,#2878C8); }
+
+.note { background:var(--mint); border-left:6px solid var(--teal); padding:16px 20px; border-radius:0 12px 12px 0; margin:16px 0; }
+.note h3 { margin-top:0; color:#0B6E64; }
+
+.contact-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; margin:14px 0; }
+.contact-card { display:block; background:#fff; border:1px solid var(--line); border-radius:14px; padding:14px 16px; text-decoration:none; color:var(--navy); box-shadow:0 3px 10px rgba(16,42,67,.05); transition:transform .16s ease, box-shadow .16s ease; }
+.contact-card:hover { transform:translateY(-2px); box-shadow:0 10px 20px rgba(16,42,67,.12); text-decoration:none; color:var(--purple); }
+.contact-card .label { display:block; font-size:.78rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); font-weight:600; margin-bottom:4px; }
+.contact-card .value { font-weight:600; word-break:break-word; }
+
+.timeline { border-left:3px solid var(--line); margin:14px 0 6px 8px; padding-left:22px; }
+.timeline-item { position:relative; margin:0 0 18px; }
+.timeline-item::before { content:""; position:absolute; left:-31px; top:5px; width:12px; height:12px; border-radius:50%; background:var(--teal); box-shadow:0 0 0 4px #E6F6F4; }
+.timeline-item h4 { margin:0 0 2px; }
+.timeline-item p { margin:2px 0; color:var(--muted); }
+
+.project-card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px 20px; margin:16px 0; box-shadow:0 4px 14px rgba(16,42,67,.06); transition:transform .16s ease, box-shadow .16s ease; }
+.project-card:hover { transform:translateY(-2px); box-shadow:0 12px 24px rgba(16,42,67,.12); }
+.project-card h4 { margin:0 0 8px; font-size:1.08rem; }
+.project-card p { margin:.4rem 0; }
+.project-card ul { margin:.6rem 0 .3rem; padding-left:1.2rem; }
+.project-card li { margin:.3rem 0; }
+.pill { display:inline-block; vertical-align:middle; background:var(--mint); color:var(--teal-dark); border:1px solid #BEE7E2; font-size:.72rem; font-weight:600; padding:2px 10px; border-radius:999px; margin-left:8px; }
+.tech-tags { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+.tech-tags span { background:#F1FAF9; color:#0B6E64; border:1px solid #CBEBE7; font-size:.76rem; padding:3px 9px; border-radius:6px; }
+
+.skills { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px; margin:14px 0; }
+.skill-group { background:#fff; border:1px solid var(--line); border-top:4px solid var(--teal); border-radius:14px; padding:14px 16px; box-shadow:0 3px 10px rgba(16,42,67,.05); }
+.skill-group h4 { margin:0 0 10px; }
+.chips { display:flex; flex-wrap:wrap; gap:7px; }
+.chips span { background:#F1FAF9; color:#0B6E64; border:1px solid #CBEBE7; font-size:.8rem; padding:4px 10px; border-radius:999px; }
+
+.gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:14px; margin:16px 0; }
+.gallery figure { margin:0; background:#fff; border:1px solid var(--line); border-radius:14px; padding:10px; box-shadow:0 3px 10px rgba(16,42,67,.05); }
+.gallery img { display:block; width:100%; border-radius:10px; }
+.gallery figcaption { text-align:center; color:var(--muted); font-size:.82rem; padding:8px 4px 2px; }
+
+.video-frame { background:#0B2545; border-radius:18px; padding:12px; margin:16px 0; box-shadow:0 12px 26px rgba(11,37,69,.18); }
+.video-frame video { display:block; width:100%; border-radius:10px; background:#000; }
+
+.back-to-top { position:fixed; right:18px; bottom:18px; z-index:99; width:44px; height:44px; display:flex; align-items:center; justify-content:center; background:var(--navy); color:#fff; border-radius:50%; text-decoration:none; font-size:1.1rem; box-shadow:0 6px 18px rgba(11,37,69,.3); }
+.back-to-top:hover { background:var(--purple); color:#fff; text-decoration:none; }
+
+@media (max-width:640px) {
+  body { padding:10px; }
+  .portfolio-hero { padding:30px 16px 26px; border-radius:18px; }
+  .portfolio-hero h1 { font-size:1.55rem; letter-spacing:1px; }
+  .portfolio-hero h3 { font-size:1rem; }
+  .welcome-top h2 { font-size:1.35rem; }
+  .portfolio-nav { grid-template-columns:1fr; }
+  th, td { padding:8px; font-size:.9rem; }
+}
+</style>
+
+<a id="top"></a>
+
+<div class="welcome-top">
+  <h2>Welcome to my Portfolio</h2>
+</div>
+
+<div class="note">
+  <h3 id="career-overview">🚀 Career Overview</h3>
+  <p>I am a motivated and dedicated Information Technology student majoring in Applications Development, aspiring to become a Backend Developer. I have a strong foundation in software development and problem-solving, with practical skills in Java, Python, web technologies, APIs, and database concepts gained through academic and personal projects. I am committed to continuous learning and professional growth, seeking an entry-level position, internship, or learnership where I can apply my technical and analytical skills to contribute to high-quality software solutions.</p>
+</div>
 
 ---
 
-### 📞 **CONTACT**
-**Phone number:** 0712025518  
-**Email:** 222056401@mycput.ac.za  
-**Address:** 143 Sir Lowry Rd, Woodstock, 7915  
-**LinkedIn:** [linkedin.com/in/charmaine-dlamini](https://www.linkedin.com/in/charmaine-dlamini)  
-**Github:** [github.com/charmaine-dlamini-18](https://github.com/charmaine-dlamini-18)
+## 🧭 Quick Navigation
 
----
-### 🚀 **CAREER OVERVIEW**
-I am a motivated and dedicated Information Technology student majoring in Applications Development, aspiring to become a Backend Developer. I have a strong foundation in software development and problem-solving, with practical skills in Java, Python, web technologies, APIs, and database concepts gained through academic and personal projects. I am committed to continuous learning and professional growth, seeking an entry-level position, internship, or learnership where I can apply my technical and analytical skills to contribute to high-quality software solutions.
+Use these shortcuts to jump directly to any section of my portfolio.
 
----
-### 🎓 **EDUCATION**
-Mlonde High School  
-National Senior Certificate  
-Matric (Grade 12)  
-2021
-
-Cape Peninsula University of Technology (CPUT)  
-DIPLOMA of ICT in Applications Development  
-Final Year
+<div class="portfolio-nav">
+  <a href="#cv-and-professional-profile">👩🏽‍💻 <strong>CV &amp; Professional Profile</strong><br><small>Contact, education and career overview</small></a>
+  <a href="#technical-skills">🧰 <strong>Technical Skills</strong><br><small>Languages, frameworks and tools</small></a>
+  <a href="#work-experience">🚀 <strong>Academic &amp; Personal Projects</strong><br><small>Applications and project experience</small></a>
+  <a href="#mock-video-interview">🎥 <strong>Mock Interview</strong><br><small>Recorded interview</small></a>
+  <a href="#agile-team-charter--laundrypickuppro">🤝 <strong>Agile Team Charter</strong><br><small>Team vision and agreements</small></a>
+  <a href="#user-stories-and-tasks--laundrypickuppro">📝 <strong>User Stories &amp; Tasks</strong><br><small>Work across ten sprints</small></a>
+  <a href="#product-backlog">📋 <strong>Product Backlog</strong><br><small>Features and Trello board</small></a>
+  <a href="#sprint-backlog">🔄 <strong>Sprint Backlog</strong><br><small>Sprint tasks and screenshots</small></a>
+  <a href="#agile-logbooks">📚 <strong>Agile Logbooks</strong><br><small>Progress records and reflections</small></a>
+  <a href="#references">📇 <strong>References</strong><br><small>Professional references</small></a>
+</div>
 
 ---
 
-### 💼 **WORK EXPERIENCE**
-#### **ACADEMIC & PERSONAL PROJECTS (2024-PRESENT)**
-**MediQueue Clinic System (Ongoing)**  
-* Developing a clinic management system designed to streamline patient appointments, queue management, and staff workflow.  
-* Enables patients to book and manage appointments online.  
-* Provides real-time queue tracking for doctors and receptionists.  
-* Includes secure patient record management and reporting features.  
-* Applying Web Technologies, Object-Oriented Programming, and SQL Database Integration.
+<h2 id="cv-and-professional-profile">CV and Professional Profile</h2>
 
-**Password Vault Application (Ongoing)**
-* Developing a secure password management tool to store and retrieve passwords safely.
-* Implementing encryption and secure storage mechanisms.
-* Building a user-friendly interface for easy password management while applying software development practices.
+<h3 id="contact">📞 Contact</h3>
 
-**Room Tracker Desktop Application**
-* Developed a multi-user system to track campus room availability with login/signup and admin panel features.
-* Managed client-server communication, network programming, and integrated database storage for persistent data.
-* Applied object-oriented design principles and iterative development.
+<div class="contact-grid">
+  <a class="contact-card" href="tel:0712025518"><span class="label">Phone</span><span class="value">071 202 5518</span></a>
+  <a class="contact-card" href="mailto:222056401@mycput.ac.za"><span class="label">Email</span><span class="value">222056401@mycput.ac.za</span></a>
+  <a class="contact-card" href="https://www.linkedin.com/in/charmaine-dlamini"><span class="label">LinkedIn</span><span class="value">charmaine-dlamini</span></a>
+  <a class="contact-card" href="https://github.com/charmaine-dlamini-18"><span class="label">GitHub</span><span class="value">charmaine-dlamini-18</span></a>
+</div>
 
-**Student Enrolment System (Java Client-Server Application)**
-* Implemented admin and student roles with secure authentication.
-* Designed a Swing GUI for course management and enrolment.
-* Integrated a Derby database using JDBC and built client-server communication using sockets and serialization.
-
-**ISbani Youth Development**  
-* Developed a comprehensive non-government organisation website designed for youth outreach and community engagement.  
-* Focused on accessibility and usability.  
-* Tech used: HTML, CSS, JavaScript.
-
-**Startup Simulator**  
-* Developed an engaging business simulator game that challenges players to build and manage a thriving startup.  
-* Features interactive gameplay and strategic decision-making.  
-* Built dynamic interfaces and game logic for realistic simulation.  
-* Tech used: HTML, CSS, JavaScript.  
+📍 Woodstock, Cape Town
 
 ---
 
-### 🛠️ **TECHNICAL SKILLS**
-**Languages:** Java, Python, HTML, CSS, JavaScript, PHP, SQL/MYSQL  
-**Frameworks & APIs:** Fast API, REST API, Spring Boot, React Native, Node.js, Next.js, Laravel  
-**Tools & IDEs:** Apache NetBeans, IntelliJ, Figma, Visual Studio Code, Thonny, PyCharm  
+<h3 id="education">🎓 Education</h3>
+
+<div class="timeline">
+  <div class="timeline-item">
+    <h4>Cape Peninsula University of Technology (CPUT)</h4>
+    <p>Diploma of ICT in Applications Development · Final Year</p>
+  </div>
+  <div class="timeline-item">
+    <h4>Mlonde High School</h4>
+    <p>National Senior Certificate · Matric (Grade 12) · 2021</p>
+  </div>
+</div>
 
 ---
 
-### 👥 **REFERENCES**
-**Mrs Rebecca Bure** (CPUT Lecturer)  
-**Phone number:** 0747054403  
-**Email:** burer@cput.ac.za  
-  
-**Nhlanhla Nqoko** (Mentor - MzingweTec)  
-**Phone number:** 0606181985  
-**Email:** nhlanhlanqoko1@gmail.com
+<h3 id="work-experience">💼 Work Experience</h3>
 
-### Mock Video Interview
-<video width="600" controls>
+#### Academic &amp; Personal Projects (2024–Present)
+
+<div class="project-card">
+  <h4>MediQueue Clinic System <span class="pill">Ongoing</span></h4>
+  <p>A clinic management system designed to streamline patient appointments, queue management, and staff workflow.</p>
+  <ul>
+    <li>Enables patients to book and manage appointments online.</li>
+    <li>Provides real-time queue tracking for doctors and receptionists.</li>
+    <li>Includes secure patient record management and reporting features.</li>
+  </ul>
+  <div class="tech-tags"><span>Web Technologies</span><span>OOP</span><span>SQL</span></div>
+</div>
+
+<div class="project-card">
+  <h4>LaundryPickupPro <span class="pill">Agile Team Project</span></h4>
+  <p>A laundry pick-up and drop-off platform for residents in Maitland, Observatory, and Woodstock.</p>
+  <ul>
+    <li>Enables customers to book services, schedule pickups, and track their orders.</li>
+    <li>Includes secure authentication, payments, driver dashboards, and admin management screens.</li>
+    <li>Built through ten Agile sprints with user stories, testing, debugging, and deployment.</li>
+  </ul>
+  <div class="tech-tags"><span>React Native</span><span>Supabase</span><span>Agile</span></div>
+</div>
+
+<div class="project-card">
+  <h4>Password Vault Application</h4>
+  <p>A secure password management tool for storing and retrieving passwords safely.</p>
+  <ul>
+    <li>Implements encryption and secure storage mechanisms.</li>
+    <li>Provides a user-friendly interface for easy password management.</li>
+    <li>Applies core software development practices.</li>
+  </ul>
+</div>
+
+<div class="project-card">
+  <h4>Room Tracker Desktop Application</h4>
+  <p>A multi-user system to track campus room availability.</p>
+  <ul>
+    <li>Includes login, signup, and admin panel features.</li>
+    <li>Manages client-server communication, network programming, and persistent database storage.</li>
+    <li>Applies object-oriented design principles and iterative development.</li>
+  </ul>
+</div>
+
+<div class="project-card">
+  <h4>Student Enrolment System <span class="pill">Java Client–Server</span></h4>
+  <p>An enrolment application with admin and student roles and secure authentication.</p>
+  <ul>
+    <li>Designed a Swing GUI for course management and enrolment.</li>
+    <li>Integrated a Derby database using JDBC.</li>
+    <li>Built client-server communication using sockets and serialization.</li>
+  </ul>
+</div>
+
+<div class="project-card">
+  <h4>ISbani Youth Development</h4>
+  <p>A non-government organisation website designed for youth outreach and community engagement.</p>
+  <ul>
+    <li>Focused on accessibility and usability.</li>
+  </ul>
+  <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+</div>
+
+<div class="project-card">
+  <h4>Startup Simulator</h4>
+  <p>An engaging business simulator game that challenges players to build and manage a thriving startup.</p>
+  <ul>
+    <li>Features interactive gameplay and strategic decision-making.</li>
+    <li>Includes dynamic interfaces and game logic for realistic simulation.</li>
+  </ul>
+  <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+</div>
+
+---
+
+<h3 id="technical-skills">🛠️ Technical Skills</h3>
+
+<div class="skills">
+  <div class="skill-group">
+    <h4>Languages</h4>
+    <div class="chips"><span>Java</span><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>SQL / MySQL</span></div>
+  </div>
+  <div class="skill-group">
+    <h4>Frameworks &amp; APIs</h4>
+    <div class="chips"><span>FastAPI</span><span>REST API</span><span>Spring Boot</span><span>React Native</span><span>Node.js</span><span>Next.js</span><span>Laravel</span></div>
+  </div>
+  <div class="skill-group">
+    <h4>Tools &amp; IDEs</h4>
+    <div class="chips"><span>Apache NetBeans</span><span>IntelliJ</span><span>Figma</span><span>VS Code</span><span>Thonny</span><span>PyCharm</span></div>
+  </div>
+</div>
+
+---
+
+<h3 id="mock-video-interview">🎥 Mock Video Interview</h3>
+
+<div class="video-frame">
+  <video controls preload="metadata">
     <source src="video/Mock-interview-video.mp4" type="video/mp4">
-</video>
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ---
 
@@ -131,7 +317,9 @@ This experience helped me identify areas for improvement, particularly in confid
 
 ---
 
-## Agile Team Charter – LaundryPickupPro
+<div class="section-banner purple" id="agile-team-charter--laundrypickuppro">
+<h2>🤝 Agile Team Charter – LaundryPickupPro</h2>
+</div>
 
 [View Agile Team Charter (PDF)](Agile%20Team%20Charter.pdf)
 
@@ -376,7 +564,9 @@ The Agile Team Charter also helped me better understand Agile practices, account
 ---
 
 
-# User Stories and Tasks – LaundryPickupPro
+<div class="section-banner stories" id="user-stories-and-tasks--laundrypickuppro">
+<h1>📝 User Stories and Tasks – LaundryPickupPro</h1>
+</div>
 
 ---
 
@@ -1226,15 +1416,26 @@ Creating user stories and tasks helped our team understand the project requireme
 
 ---
 
-## Product Backlog
+<div class="section-banner teal" id="product-backlog">
+<h2>📋 Product Backlog</h2>
+</div>
 
 [View Product Backlog and Sprint Backlog on Trello](https://trello.com/b/D6tnqbrx)
 
-![Product Backlog 1](images/Product-Backlog1.jpg)
-
-![Product Backlog 2](images/Product-Backlog2.jpg)
-
-![Product Backlog 3](images/Product-Backlog3.jpg)
+<div class="gallery">
+  <figure>
+    <a href="images/Product-Backlog1.jpg"><img src="images/Product-Backlog1.jpg" alt="Product Backlog board - part 1" loading="lazy"></a>
+    <figcaption>Product Backlog – Board 1</figcaption>
+  </figure>
+  <figure>
+    <a href="images/Product-Backlog2.jpg"><img src="images/Product-Backlog2.jpg" alt="Product Backlog board - part 2" loading="lazy"></a>
+    <figcaption>Product Backlog – Board 2</figcaption>
+  </figure>
+  <figure>
+    <a href="images/Product-Backlog3.jpg"><img src="images/Product-Backlog3.jpg" alt="Product Backlog board - part 3" loading="lazy"></a>
+    <figcaption>Product Backlog – Board 3</figcaption>
+  </figure>
+</div>
 
 ---
 
@@ -1258,13 +1459,24 @@ Working with the product backlog helped me understand the importance of planning
 
 ---
 
-## Sprint Backlog
+<div class="section-banner amber" id="sprint-backlog">
+<h2>🔄 Sprint Backlog</h2>
+</div>
 
-![Sprint Backlog 1](images/Sprint-Backlog1.png)
-
-![Sprint Backlog 2](images/Sprint-Backlog2.png)
-
-![Sprint Backlog 3](images/Sprint-Backlog3.png)
+<div class="gallery">
+  <figure>
+    <a href="images/Sprint-Backlog1.png"><img src="images/Sprint-Backlog1.png" alt="Sprint Backlog board - part 1" loading="lazy"></a>
+    <figcaption>Sprint Backlog – Board 1</figcaption>
+  </figure>
+  <figure>
+    <a href="images/Sprint-Backlog2.png"><img src="images/Sprint-Backlog2.png" alt="Sprint Backlog board - part 2" loading="lazy"></a>
+    <figcaption>Sprint Backlog – Board 2</figcaption>
+  </figure>
+  <figure>
+    <a href="images/Sprint-Backlog3.png"><img src="images/Sprint-Backlog3.png" alt="Sprint Backlog board - part 3" loading="lazy"></a>
+    <figcaption>Sprint Backlog – Board 3</figcaption>
+  </figure>
+</div>
 
 
 ---
@@ -1288,7 +1500,9 @@ The sprint backlog helped me understand how large project requirements can be di
 
 ---
 
-## Agile Logbooks
+<div class="section-banner blue" id="agile-logbooks">
+<h2>📚 Agile Logbooks</h2>
+</div>
 
 The Agile logbooks below document my progress, activities, and contributions to the development of LaundryPickupPro throughout the project.
 
@@ -1320,3 +1534,24 @@ I recorded my development activities, documented completed tasks, and reflected 
 
 **Result:**  
 Maintaining the logbooks helped me become more organised and aware of my progress. I improved my understanding of Agile practices, documentation, accountability, and continuous improvement. I also learned the importance of keeping accurate records to communicate progress and reflect on my contributions to a software development project.
+
+---
+
+<div class="section-banner" id="references">
+<h2>📇 References</h2>
+</div>
+
+<div class="contact-grid">
+  <div class="contact-card">
+    <span class="label">CPUT Lecturer</span>
+    <span class="value">Mrs Rebecca Bure</span>
+    <p>📞 <a href="tel:0747054403">074 705 4403</a><br>✉️ <a href="mailto:burer@cput.ac.za">burer@cput.ac.za</a></p>
+  </div>
+  <div class="contact-card">
+    <span class="label">Mentor · MzingweTec</span>
+    <span class="value">Nhlanhla Nqoko</span>
+    <p>📞 <a href="tel:0606181985">060 618 1985</a><br>✉️ <a href="mailto:nhlanhlanqoko1@gmail.com">nhlanhlanqoko1@gmail.com</a></p>
+  </div>
+</div>
+
+<a href="#top" class="back-to-top" title="Back to top" aria-label="Back to top">↑</a>
