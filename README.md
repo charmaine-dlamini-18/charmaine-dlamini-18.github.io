@@ -111,7 +111,7 @@ blockquote { border-left:5px solid var(--teal); background:var(--mint); padding:
 
 <div class="note">
   <h3 id="career-overview">🚀 Career Overview</h3>
-  <p>I am a motivated and dedicated Information Technology student majoring in Applications Development, aspiring to become a Backend Developer. I have a strong foundation in software development and problem-solving, with practical skills in Java, Python, web technologies, APIs, and database concepts gained through academic and personal projects. I am committed to continuous learning and professional growth, seeking an entry-level position, internship, or learnership where I can apply my technical and analytical skills to contribute to high-quality software solutions.</p>
+  <p>I am a motivated and dedicated Information Technology final year student majoring in Applications Development, aspiring to become a Backend Developer. I have a strong foundation in software development and problem-solving, with practical skills in Java, Python, web technologies, APIs, and database concepts gained through academic and personal projects. I am committed to continuous learning and professional growth, seeking an entry-level position, internship, or learnership where I can apply my technical and analytical skills to contribute to high-quality software solutions.</p>
 </div>
 
 ---
