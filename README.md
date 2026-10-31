@@ -1,4 +1,4 @@
-<style>
+<style>/*
 :root {
   --navy:#0B2545; --navy-2:#12385A; --teal:#0E9F8E; --teal-dark:#0B7C70;
   --mint:#EAF8F6; --purple:#6C63FF; --amber:#E88B2A; --ink:#1F3A4D;
@@ -101,17 +101,30 @@ blockquote { border-left:5px solid var(--teal); background:var(--mint); padding:
   .portfolio-nav { grid-template-columns:1fr; }
   th, td { padding:8px; font-size:.9rem; }
 }
+*/
 </style>
+<link rel="stylesheet" href="style.css">
 
 <a id="top"></a>
 
-<div class="welcome-top">
-  <h2>Welcome to my Portfolio</h2>
+<div class="portfolio-hero">
+  <span class="hero-orb orb-1"></span>
+  <span class="hero-orb orb-2"></span>
+  <div class="hero-inner">
+    <p class="hero-eyebrow">Hello, I'm</p>
+    <h1>Charmaine Dlamini</h1>
+    <h3>Final-Year ICT Student &middot; Aspiring Software Developer</h3>
+    <div class="hero-tags">
+      <span>Applications Development</span>
+      <span>Backend Development</span>
+      <span>Fullstack Development</span>
+    </div>
+  </div>
 </div>
 
 <div class="note">
   <h3 id="career-overview">🚀 Career Overview</h3>
-  <p>I am a motivated and dedicated Information Technology final year student majoring in Applications Development, aspiring to become a Backend Developer. I have a strong foundation in software development and problem-solving, with practical skills in Java, Python, web technologies, APIs, and database concepts gained through academic and personal projects. I am committed to continuous learning and professional growth, seeking an entry-level position, internship, or learnership where I can apply my technical and analytical skills to contribute to high-quality software solutions.</p>
+  <p>Motivated and detail-oriented final-year Information Technology student specializing in Applications Development, with a strong interest in Software Development, Full-Stack Development, and Backend Development. A practical and analytical problem-solver who enjoys turning ideas and requirements into functional software solutions. Demonstrates a strong willingness to learn, adapt to new technologies, collaborate with others, and continuously improve. Seeking an opportunity to gain hands-on industry experience, contribute to meaningful projects, and grow as a well-rounded Software Developer.</p>
 </div>
 
 ---
@@ -121,16 +134,16 @@ blockquote { border-left:5px solid var(--teal); background:var(--mint); padding:
 Use these shortcuts to jump directly to any section of my portfolio.
 
 <div class="portfolio-nav">
-  <a href="#cv-and-professional-profile">👩🏽‍💻 <strong>CV &amp; Professional Profile</strong><br><small>Contact, education and career overview</small></a>
-  <a href="#technical-skills">🧰 <strong>Technical Skills</strong><br><small>Languages, frameworks and tools</small></a>
-  <a href="#work-experience">🚀 <strong>Academic &amp; Personal Projects</strong><br><small>Applications and project experience</small></a>
-  <a href="#mock-video-interview">🎥 <strong>Mock Interview</strong><br><small>Recorded interview</small></a>
-  <a href="#agile-team-charter--laundrypickuppro">🤝 <strong>Agile Team Charter</strong><br><small>Team vision and agreements</small></a>
-  <a href="#user-stories-and-tasks--laundrypickuppro">📝 <strong>User Stories &amp; Tasks</strong><br><small>Work across ten sprints</small></a>
-  <a href="#product-backlog">📋 <strong>Product Backlog</strong><br><small>Features and Trello board</small></a>
-  <a href="#sprint-backlog">🔄 <strong>Sprint Backlog</strong><br><small>Sprint tasks and screenshots</small></a>
-  <a href="#agile-logbooks">📚 <strong>Agile Logbooks</strong><br><small>Progress records and reflections</small></a>
-  <a href="#references">📇 <strong>References</strong><br><small>Professional references</small></a>
+  <a class="nav-card accent-teal" href="#cv-and-professional-profile"><span class="nav-icon">👩🏽‍💻</span><span class="nav-text"><strong>CV &amp; Professional Profile</strong><small>Contact, education and career overview</small></span></a>
+  <a class="nav-card accent-purple" href="#technical-skills"><span class="nav-icon">🧰</span><span class="nav-text"><strong>Technical Skills</strong><small>Languages, frameworks and tools</small></span></a>
+  <a class="nav-card accent-pink" href="#work-experience"><span class="nav-icon">🚀</span><span class="nav-text"><strong>Academic &amp; Personal Projects</strong><small>Applications and project experience</small></span></a>
+  <a class="nav-card accent-amber" href="#mock-video-interview"><span class="nav-icon">🎥</span><span class="nav-text"><strong>Mock Interview</strong><small>Recorded interview</small></span></a>
+  <a class="nav-card accent-purple" href="#agile-team-charter--laundrypickuppro"><span class="nav-icon">🤝</span><span class="nav-text"><strong>Agile Team Charter</strong><small>Team vision and agreements</small></span></a>
+  <a class="nav-card accent-pink" href="#user-stories-and-tasks--laundrypickuppro"><span class="nav-icon">📝</span><span class="nav-text"><strong>User Stories &amp; Tasks</strong><small>Work across ten sprints</small></span></a>
+  <a class="nav-card accent-teal" href="#product-backlog"><span class="nav-icon">📋</span><span class="nav-text"><strong>Product Backlog</strong><small>Features and Trello board</small></span></a>
+  <a class="nav-card accent-amber" href="#sprint-backlog"><span class="nav-icon">🔄</span><span class="nav-text"><strong>Sprint Backlog</strong><small>Sprint tasks and screenshots</small></span></a>
+  <a class="nav-card accent-sky" href="#agile-logbooks"><span class="nav-icon">📚</span><span class="nav-text"><strong>Agile Logbooks</strong><small>Progress records and reflections</small></span></a>
+  <a class="nav-card accent-purple" href="#references"><span class="nav-icon">📇</span><span class="nav-text"><strong>References</strong><small>Professional references</small></span></a>
 </div>
 
 ---
@@ -140,13 +153,13 @@ Use these shortcuts to jump directly to any section of my portfolio.
 <h3 id="contact">📞 Contact</h3>
 
 <div class="contact-grid">
-  <a class="contact-card" href="tel:0712025518"><span class="label">Phone</span><span class="value">071 202 5518</span></a>
-  <a class="contact-card" href="mailto:222056401@mycput.ac.za"><span class="label">Email</span><span class="value">222056401@mycput.ac.za</span></a>
-  <a class="contact-card" href="https://www.linkedin.com/in/charmaine-dlamini"><span class="label">LinkedIn</span><span class="value">charmaine-dlamini</span></a>
-  <a class="contact-card" href="https://github.com/charmaine-dlamini-18"><span class="label">GitHub</span><span class="value">charmaine-dlamini-18</span></a>
+  <a class="contact-card icon-card" href="tel:0712025518"><span class="contact-icon">📞</span><span class="contact-body"><span class="label">Phone</span><span class="value">071 202 5518</span></span></a>
+  <a class="contact-card icon-card" href="mailto:222056401@mycput.ac.za"><span class="contact-icon">✉️</span><span class="contact-body"><span class="label">Email</span><span class="value">222056401@<wbr>mycput.ac.za</span></span></a>
+  <a class="contact-card icon-card" href="https://www.linkedin.com/in/charmaine-dlamini"><span class="contact-icon">💼</span><span class="contact-body"><span class="label">LinkedIn</span><span class="value">charmaine-dlamini</span></span></a>
+  <a class="contact-card icon-card" href="https://github.com/charmaine-dlamini-18"><span class="contact-icon github-icon"><svg viewBox="0 0 16 16" width="20" height="20" aria-hidden="true" focusable="false"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg></span><span class="contact-body"><span class="label">GitHub</span><span class="value">charmaine-dlamini-18</span></span></a>
 </div>
 
-📍 Woodstock, Cape Town
+<p class="location-pill">📍 Woodstock, Cape Town</p>
 
 ---
 
@@ -199,6 +212,7 @@ Use these shortcuts to jump directly to any section of my portfolio.
     <li>Provides a user-friendly interface for easy password management.</li>
     <li>Applies core software development practices.</li>
   </ul>
+  <div class="tech-tags"><span>Python</span><span>Encryption</span><span>OOP</span></div>
 </div>
 
 <div class="project-card">
@@ -209,6 +223,7 @@ Use these shortcuts to jump directly to any section of my portfolio.
     <li>Manages client-server communication, network programming, and persistent database storage.</li>
     <li>Applies object-oriented design principles and iterative development.</li>
   </ul>
+  <div class="tech-tags"><span>Java</span><span>JDBC</span><span>Swing GUI</span><span>Client–Server</span></div>
 </div>
 
 <div class="project-card">
@@ -219,6 +234,7 @@ Use these shortcuts to jump directly to any section of my portfolio.
     <li>Integrated a Derby database using JDBC.</li>
     <li>Built client-server communication using sockets and serialization.</li>
   </ul>
+  <div class="tech-tags"><span>Java</span><span>JDBC</span><span>Swing GUI</span><span>Derby</span><span>Sockets</span></div>
 </div>
 
 <div class="project-card">
@@ -247,11 +263,11 @@ Use these shortcuts to jump directly to any section of my portfolio.
 <div class="skills">
   <div class="skill-group">
     <h4>Languages</h4>
-    <div class="chips"><span>Java</span><span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>SQL / MySQL</span></div>
+    <div class="chips"><span>Java</span><span>Python</span><span>TypeScript</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>SQL / MySQL</span></div>
   </div>
   <div class="skill-group">
     <h4>Frameworks &amp; APIs</h4>
-    <div class="chips"><span>FastAPI</span><span>REST API</span><span>Spring Boot</span><span>React Native</span><span>Node.js</span><span>Next.js</span><span>Laravel</span></div>
+    <div class="chips"><span>FastAPI</span><span>REST API</span><span>Spring Boot</span><span>React / React Native</span><span>Vue.js</span><span>Node.js</span><span>Next.js</span><span>Laravel</span></div>
   </div>
   <div class="skill-group">
     <h4>Tools &amp; IDEs</h4>
@@ -263,11 +279,11 @@ Use these shortcuts to jump directly to any section of my portfolio.
 
 <h3 id="mock-video-interview">🎥 Mock Video Interview</h3>
 
-<div class="video-frame">
-  <video controls preload="metadata">
-    <source src="video/Mock-interview-video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+<div class="video-cta">
+  <a class="video-button" href="video/Mock-interview-video.mp4" target="_blank" rel="noopener">
+    <span class="video-button-icon">▶</span>
+    View Mock Interview
+  </a>
 </div>
 
 ---
@@ -1555,3 +1571,15 @@ Maintaining the logbooks helped me become more organised and aware of my progres
 </div>
 
 <a href="#top" class="back-to-top" title="Back to top" aria-label="Back to top">↑</a>
+
+<script>
+(function () {
+  var backToTop = document.querySelector('.back-to-top');
+  if (!backToTop) return;
+  function updateBackToTop() {
+    backToTop.classList.toggle('is-visible', window.scrollY > 400);
+  }
+  window.addEventListener('scroll', updateBackToTop, { passive: true });
+  updateBackToTop();
+})();
+</script>
